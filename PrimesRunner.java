@@ -1,6 +1,6 @@
 import java.util.Scanner;
 import java.io.*;
-
+import java.util.HashMap;
 public class PrimesRunner
 {
     public static void main( String args[] ) 
