@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Prime
+comment1.params=
+comment1.target=Prime()
+comment2.params=num
+comment2.target=Prime(int)
+comment3.params=num
+comment3.target=void\ setPrime(int)
+comment4.params=
+comment4.target=boolean\ isPrime()
+comment5.params=
+comment5.target=java.lang.String\ toString()
+numComments=6
