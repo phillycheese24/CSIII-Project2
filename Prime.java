@@ -2,14 +2,14 @@ import java.lang.Math;
 import java.util.HashMap;
 public class Prime
 {
-    private int number;
+    private HashMap cities;
 
-    public Prime()
+    public cities()
     {
-        number=0;
+        cities=0;
     }
 
-    public Prime(int num)
+    public cities(int num)
     {
         number=num;
     }
