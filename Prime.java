@@ -1,5 +1,5 @@
 import java.lang.Math;
-
+import java.util.HashMap;
 public class Prime
 {
     private int number;
