@@ -1,14 +1,14 @@
 import java.util.Scanner;
 import java.io.*;
 import java.util.HashMap;
-public class PrimesRunner
+public class CitiesRunner
 {
     public static void main( String args[] ) 
     {
         String data = "";
         try
         {
-            Scanner scan = new Scanner(new File("primes.dat"));
+            Scanner scan = new Scanner(new File("CityData.dat"));
             while(scan.hasNextLine()){
                 data+=scan.nextLine()+ "/n";
             }
@@ -43,7 +43,7 @@ public class PrimesRunner
                 // Use the .toString() method and write to the file
             for(String num: nums){
                 int n = Integer.parseInt(num);
-                Prime p = new Prime(n);
+                Cities p = new Cities(n);
                 c.println(p.toString());
             }
           
